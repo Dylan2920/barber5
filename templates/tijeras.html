@@ -1,0 +1,103 @@
+
+{% extends "layout.html" %}
+{% block title %}Shavers{% endblock %}
+{% block content %}
+ 
+        <!----------TIJERAS/BARBERAS-------->
+ <section class="container">
+<div class="products">
+<div class="carts">
+    <div>
+      <img src="./static/images/tijeras/t0.jpg" alt="">
+      <p>$<span>20000</span></p>
+    </div>
+    <p class="title">BARBERA BLEVEL 3 (VERDE,AZUL,ROJA,ROSA)</p>
+    <a href="" data-id="40" class="btn-add-cart">Agregar Carrito</a>
+    </div>
+    
+    <div class="carts">
+      <div>
+        <img src="./static/images/tijeras/t1.jpg" alt="">
+        <p>$<span>10000</span></p>
+      </div>
+      <p class="title">BARBERA CLÁSICA METÁLICA ECO</p>
+      <a href="" data-id="41" class="btn-add-cart">Agregar Carrito</a>
+      </div>
+    
+      <div class="carts">
+        <div>
+          <img src="./static/images/tijeras/t2.jpg" alt="">
+          <p>$<span>22000</span></p>
+        </div>
+        <p class="title">BARBERA MADERA</p>
+        <a href="" data-id="42" class="btn-add-cart">Agregar Carrito</a>
+        </div>
+        
+        <div class="carts">
+          <div>
+            <img src="./static/images/tijeras/t3.jpg" alt="">
+            <p>$<span>60000</span></p>
+          </div>
+          <p class="title">KIT TIJERA PARABARBEROS FLUORESCENTE AMARILLO X 2 UND</p>
+          <a href="" data-id="43" class="btn-add-cart">Agregar Carrito</a>
+          </div>
+    
+          <div class="carts">
+            <div>
+              <img src="./static/images/tijeras/t4.jpg" alt="">
+              <p>$<span>60000</span></p>
+            </div>
+            <p class="title">KIT TIJERA JAGUAR TORNASOL X 2 UND</p>
+            <a href="" data-id="44" class="btn-add-cart">Agregar Carrito</a>
+            </div>
+    
+            <div class="carts">
+              <div>
+                <img src="./static/images/tijeras/t5.jpg" alt="">
+                <p>$<span>75000</span></p>
+              </div>
+              <p class="title">KIT TIJERA PARABARBEROS DORADAS X3 UND</p>
+              <a href="" data-id="45" class="btn-add-cart">Agregar Carrito</a>
+              </div>
+    
+              <div class="carts">
+                <div>
+                  <img src="./static/images/tijeras/t6.jpg" alt="">
+                  <p>$<span>35000</span></p>
+                </div>
+                <p class="title">TIJERA 7 PULGADAS MICRODENTADA NEGRA</p>
+                <a href="" data-id="46" class="btn-add-cart">Agregar Carrito</a>
+                </div>
+    
+              
+                    
+    </div>
+            </div>
+        </section>
+
+<div class="centrar">
+        <nav aria-label="" >
+          <ul class="pagination" >
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous" >
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="{{url_for('patilleras')}}" >1</a></li>
+            <li class="page-item"><a class="page-link" href="{{url_for('maquinas')}}">2</a></li>
+            <li class="page-item"><a class="page-link" href="{{url_for('shavers')}}">3</a></li>
+            <li class="page-item"><a class="page-link" href="{{url_for('capas')}}" >4</a></li>
+            <li class="page-item"><a class="page-link" href="{{url_for('tijeras')}}">5</a></li>
+           
+    
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+
+        {% endblock %}

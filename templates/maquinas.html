@@ -1,0 +1,126 @@
+{% extends "layout.html" %}
+{% block title %}Máquinas{% endblock %}
+{% block content %}
+ 
+  <section class="container">
+      <div class="products">
+        <div class="carts">
+            <div>
+                <img src="./static/images/maquinas/m1.jpg" alt="">
+                <p>$<span>620000</span></p>
+            </div>
+            <p class="title">MAQUINA BABYLISS PLATEADA FX</p>
+            <a href="" data-id="11" class="btn-add-cart">Agregar Carrito</a>
+        </div>
+        <div class="carts">
+          <div>
+              <img src="./static/images/maquinas/m2.jpg" alt="">
+              <p>$<span>550000</span></p>
+          </div>
+          <p class="title"> MAQUINA GAMMA+ SKIN</p>
+          <a href="" data-id="12" class="btn-add-cart">Agregar Carrito</a>
+      </div>
+
+      <div class="carts">
+        <div>
+            <img src="./static/images/maquinas/m3.jpg" alt="">
+            <p>$<span>350000</span></p>
+        </div>
+        <p class="title"> MAQUINA WAHL LEGEND V9000 DE CABLE
+          </p>
+        <a href="" data-id="13" class="btn-add-cart">Agregar Carrito</a>
+    </div>
+
+    <div class="carts">
+      <div>
+          <img src="./static/images/maquinas/m4.jpg" alt="">
+          <p>$<span>470000</span></p>
+      </div>
+      <p class="title"> MAQUINA WAHL SENIOR V9000 DE CABLE
+        </p>
+      <a href="" data-id="14" class="btn-add-cart">Agregar Carrito</a>
+  </div>
+
+  <div class="carts">
+    <div>
+        <img src="./static/images/maquinas/m5.jpg" alt="">
+        <p>$<span>250000</span></p>
+    </div>
+    <p class="title"> MAQUINA WAHL DESIGNER V5000 DE CABLE </p>
+    <a href="" data-id="15" class="btn-add-cart">Agregar Carrito</a>
+</div>
+
+<div class="carts">
+  <div>
+      <img src="./static/images/maquinas/m6.jpg" alt="">
+      <p>$<span>220000</span></p>
+  </div>
+  <p class="title"> MÁQUINA WMARK NG 2032</p>
+  <a href="" data-id="16" class="btn-add-cart">Agregar Carrito</a>
+</div>
+
+<div class="carts">
+<div>
+    <img src="./static/images/maquinas/m7.jpg" alt="">
+    <p>$<span>120000</span></p>
+</div>
+<p class="title"> 
+  MAQUINA VGR V-282 PROFESSIONAL HAIR CLIPPER</p>
+<a href="" data-id="17" class="btn-add-cart">Agregar Carrito</a>
+</div>
+
+<div class="carts">
+<div>
+  <img src="./static/images/maquinas/m8.jpg" alt="">
+  <p>$<span>250000</span></p>
+</div>
+<p class="title"> MÁQUINA ANDIS BEAUTYMASTER+</p>
+<a href="" data-id="18" class="btn-add-cart">Agregar Carrito</a>
+</div>
+
+<div class="carts">
+<div>
+  <img src="./static/images/maquinas/m9.jpg" alt="">
+  <p>$<span>450000</span></p>
+</div>
+<p class="title"> MAQUINA WAHL MAGIC CLIP INALAMBRICA</p>
+<a href="" data-id="19" class="btn-add-cart">Agregar Carrito</a>
+</div>
+
+<div class="carts">
+<div>
+  <img src="./static/images/maquinas/m10.jpg" alt="">
+  <p>$<span>425000</span></p>
+</div>
+<p class="title">JRL MAQINA 1040 FRESH FADE</p>
+<a href="" data-id="20" class="btn-add-cart">Agregar Carrito</a>
+</div>
+
+      </div>
+      </section>
+
+      <div class="centrar">
+      <nav aria-label="" >
+        <ul class="pagination" >
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous" >
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="{{url_for('patilleras')}}" >1</a></li>
+          <li class="page-item"><a class="page-link" href="{{url_for('maquinas')}}">2</a></li>
+          <li class="page-item"><a class="page-link" href="{{url_for('shavers')}}">3</a></li>
+          <li class="page-item"><a class="page-link" href="{{url_for('capas')}}" >4</a></li>
+          <li class="page-item"><a class="page-link" href="{{url_for('tijeras')}}">5</a></li>
+         
+  
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+      {% endblock %}

@@ -1,0 +1,117 @@
+{% extends "layout.html" %}
+{% block title %}Patilleras{% endblock %}
+{% block content %}
+ 
+  <section class="container">
+      <div class="products">
+           <!-- PATILLERAS -->
+           <div class="carts">
+            <div>
+                <img src="./static/images/patilleras/p1.jpg" alt="">
+                <p></span>$<span>380000</span></p>
+            </div>
+            <p class="title">PATILLERA ANDIS T-OUTLINER DE CABLE</p>
+            <a href="" data-id="1" class="btn-add-cart">Agregar Carrito</a>
+        </div>
+        <div class="carts">
+            <div>
+                <img src="./static/images/patilleras/p2.jpg" alt="">
+                <p></span>$<span>860000</span></p>
+            </div>
+            <p class="title"> PATILLERA BABYLISS SNAPFX</p>
+            <a href="" class="btn-add-cart" data-id="2">Agregar Carrito</a>
+        </div>
+        <div class="carts">
+            <div>
+                <img src="./static/images/patilleras/p3.jpg" alt="">
+                <p>$<span>380000</span></p>
+            </div>
+            <p class="title">PATILLERA GAMMA+ HITTER</p>
+            <a href="" data-id="3" class="btn-add-cart">Agregar Carrito</a>
+        </div>
+        <div class="carts">
+            <div>
+                <img src="./static/images/patilleras/p4.jpg" alt="">
+                <p>$<span>180000</span></p>
+            </div>
+            <p class="title">PATILLERA ELECTROBELL REVOLUTION INALAMBRICA</p>
+            <a href="" data-id="4" class="btn-add-cart">Agregar Carrito</a>
+        </div>
+        <div class="carts">
+            <div>
+                <img src="./static/images/patilleras/p5.jpg" alt="">
+                <p>$<span>550000</span></p>
+            </div>
+            <p class="title"> PATILLERA WAHL DETAILER CORDLESS</p>
+            <a href="" data-id="5" class="btn-add-cart">Agregar Carrito</a>
+        </div>
+        <div class="carts">
+            <div>
+                <img src="./static/images/patilleras/p6.jpg" alt="">
+                <p>$<span>270000</span></p>
+            </div>
+            <p class="title"> PATILLERA ANDIS SLIM NATION</p>
+            <a href="" data-id="6" class="btn-add-cart">Agregar Carrito</a>
+        </div>
+        <div class="carts">
+            <div>
+                <img src="./static/images/patilleras/p7.jpg" alt="">
+                <p>$<span>110000</span></p>
+            </div>
+            <p class="title">PATILLERA KEMEI T9</p>
+            <a href="" data-id="7" class="btn-add-cart">Agregar Carrrito</a>
+        </div>
+        <div class="carts">
+            <div>
+                <img src="./static/images/patilleras/p8.jpg" alt="">
+                <p>$<span>133000</span></p>
+            </div>
+            <p class="title"> PATILLERA TURBOX NT-DOGMA</p>
+            <a href="" data-id="8" class="btn-add-cart">Agregar Carrito</a>
+        </div>
+        <div class="carts">
+            <div>
+                <img src="./static/images/patilleras/p9.jpg" alt="">
+                <p>$<span>120000</span></p>
+            </div>
+            <p class="title"> PATILLERA KEMEI 1949</p>
+            <a href="" data-id="9" class="btn-add-cart">Agregar Carrito</a>
+        </div>
+        <div class="carts">
+            <div>
+                <img src="./static/images/patilleras/p10.jpg" alt="">
+                <p>$<span>170000</span></p>
+            </div>
+            <p class="title"> PATILLERA VGR V-192 </p>
+            <a href="" data-id="10" class="btn-add-cart">Agregar Carrito</a>
+        </div>
+      </div>
+      </section>
+
+      <div class="centrar">
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="{{url_for('patilleras')}}" >1</a></li>
+          <li class="page-item"><a class="page-link" href="{{url_for('maquinas')}}">2</a></li>
+          <li class="page-item"><a class="page-link" href="{{url_for('shavers')}}">3</a></li>
+          <li class="page-item"><a class="page-link" href="{{url_for('capas')}}" >4</a></li>
+          <li class="page-item"><a class="page-link" href="{{url_for('tijeras')}}">5</a></li>
+         
+  
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+
+
+      {% endblock %}

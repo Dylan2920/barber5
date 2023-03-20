@@ -1,0 +1,108 @@
+{% extends "layout.html" %}
+{% block title %}Capas{% endblock %}
+{% block content %}
+ 
+  <!------CAPAS---->
+<section class="container">    
+ 
+<div class="products">
+<div class="carts">
+<div>
+<img src="./static/images/capas/c1.jpg" alt="">
+<p>$<span>30000</span></p>
+</div>
+<p class="title">CAPA DE LUJO GCI ABEJA</p>
+<a href="" data-id="31" class="btn-add-cart">Agregar Carrito</a>
+</div>
+
+<div class="carts">
+<div>
+<img src="./static/images/capas/c2.jpg" alt="">
+<p>$<span>30000</span></p>
+</div>
+<p class="title">CAPA DE LUJO S24</p>
+<a href="" data-id="32" class="btn-add-cart">Agregar Carrito</a>
+</div>
+
+<div class="carts">
+<div>
+<img src="./static/images/capas/c3.jpg" alt="">
+<p>$<span>30000</span></p>
+</div>
+<p class="title">CAPA DE LUJO GUCCI SERPIENTE VERDE</p>
+<a href="" data-id="33" class="btn-add-cart">Agregar Carrito</a>
+</div>
+
+<div class="carts">
+<div>
+<img src="./static/images/capas/c4.jpg" alt="">
+<p>$<span>30000</span></p>
+</div>
+<p class="title">CAPA DE LUJO GCI NEGRA</p>
+<a href="" data-id="34" class="btn-add-cart">Agregar Carrito</a>
+</div>
+
+<div class="carts">
+<div>
+<img src="./static/images/capas/c5.jpg" alt="">
+<p>$<span>30000</span></p>
+</div>
+<p class="title">CAPA DE LUJO SPRM AMARILLO NEGRO</p>
+<a href="" data-id="35" class="btn-add-cart">Agregar Carrito</a>
+</div>
+
+<div class="carts">
+<div>
+<img src="./static/images/capas/c6.jpg" alt="">
+<p>$<span>22000</span></p>
+</div>
+<p class="title">CAPA GRUESA LV NEGRA</p>
+<a href="" data-id="36" class="btn-add-cart">Agregar Carrito</a>
+</div>
+
+<div class="carts">
+<div>
+<img src="./static/images/capas/c7.jpg" alt="">
+<p>$<span>19000</span></p>
+</div>
+<p class="title">CAPA SOLO FONDO</p>
+<a href="" data-id="37" class="btn-add-cart">Agregar Carrito</a>
+</div>
+
+<div class="carts">
+<div>
+<img src="./static/images/capas/c8.jpg" alt="">
+<p>$<span>30000</span></p>
+</div>
+<p class="title">CAPA GRUESA MILITAR SPRM</p>
+<a href="" data-id="38" class="btn-add-cart">Agregar Carrito</a>
+</div>
+ </div>
+</section>
+
+<div class="centrar">
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="{{url_for('patilleras')}}" >1</a></li>
+    <li class="page-item"><a class="page-link" href="{{url_for('maquinas')}}">2</a></li>
+    <li class="page-item"><a class="page-link" href="{{url_for('shavers')}}">3</a></li>
+    <li class="page-item"><a class="page-link" href="{{url_for('capas')}}" >4</a></li>
+    <li class="page-item"><a class="page-link" href="{{url_for('tijeras')}}">5</a></li>
+   
+
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+</div>
+
+{% endblock %}

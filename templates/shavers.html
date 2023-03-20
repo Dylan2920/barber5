@@ -1,0 +1,124 @@
+
+{% extends "layout.html" %}
+{% block title %}Shavers{% endblock %}
+{% block content %}
+
+  <section class="container">
+      <div class="products">
+         <!-- SHAVERS -->
+
+<div class="carts">
+    <div>
+        <img src="./static/images/shavers/s1.jpg" alt="">
+        <p>$<span>440000</span></p>
+    </div>
+    <p class="title">BABYLISS SHAVER DORADA FX02</p>
+    <a href="" data-id="21" class="btn-add-cart">Agregar Carrito</a>
+    </div>
+    
+    <div class="carts">
+    <div>
+        <img src="./static/images/shavers/s2.jpg" alt="">
+        <p>$<span>28000</span></p>
+    </div>
+    <p class="title">SHAVER ANDIS PRO FOIL</p>
+    <a href="" data-id="22" class="btn-add-cart">Agregar Carrito</a>
+    </div>
+    
+    <div class="carts">
+    <div>
+        <img src="./static/images/shavers/s3.jpg" alt="">
+        <p>$<span>120000</span></p>
+    </div>
+    <p class="title">SHAVER KEMEI RASURADORA KM-2024</p>
+    <a href="" data-id="23" class="btn-add-cart">Agregar Carrito</a>
+    </div>
+    <div class="carts">
+    <div>
+        <img src="./static/images/shavers/s4.jpg" alt="">
+        <p>$<span>180000</span></p>
+    </div>
+    <p class="title">SHAVER ELECTROBELL PROFESIONAL EB-04B</p>
+    <a href="" data-id="24" class="btn-add-cart">Agregar Carrito</a>
+    </div>
+    <div class="carts">
+    <div>
+        <img src="./static/images/shavers/s5.jpg" alt="">
+        <p>$<span>185000</span></p>
+    </div>
+    <p class="title">SHAVER TURBOX TITANIUM</p>
+    <a href="" data-id="25" class="btn-add-cart">Agregar Carrito</a>
+    </div>
+    <div class="carts">
+    <div>
+        <img src="./static/images/shavers/s6.jpg" alt="">
+        <p>$<span>190000</span></p>
+    </div>
+    <p class="title">SHAVER TURBOX NT-TURBO GOLD</p>
+    <a href="" data-id="26" class="btn-add-cart">Agregar Carrito</a>
+    </div>
+    <div class="carts">
+    <div>
+        <img src="./static/images/shavers/s7.jpg" alt="">
+        <p>$<span>250000</span></p>
+    </div>
+    <p class="title"> SHAVER ELECTROBELL XPLUS</p>
+    <a href="" data-id="27" class="btn-add-cart">Agregar Carrito</a>
+    </div>
+    <div class="carts">
+    <div>
+        <img src="./static/images/shavers/s8.jpg" alt="">
+        <p>$<span>370000</span></p>
+    </div>
+    <p class="title">BABYLISS SHAVER PLATEADA FX02</p>
+    <a href="" data-id="28" class="btn-add-cart">Agregar Carrito</a>
+    </div>
+    <div class="carts">
+    <div>
+        <img src="./static/images/shavers/s9.jpg" alt="">
+        <p>$<span>310000</span></p>
+    </div>
+    <p class="title">Shaver wahl 5Star</p>
+    <a href="" data-id="29" class="btn-add-cart">Agregar Carrito</a>
+    </div>
+    <div class="carts">
+    <div>
+        <img src="./static/images/shavers/s10.jpg" alt="">
+        <p>$<span>190000</span></p>
+    </div>
+    <p class="title">SHAVER BRAVA-ST500</p>
+    <a href="" data-id="30" class="btn-add-cart">Agregar Carrito</a>
+    </div>
+    
+      </div>
+
+    
+
+
+      </section>
+
+      <div class="centrar">
+      <nav aria-label=""  >
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="{{url_for('patilleras')}}" >1</a></li>
+          <li class="page-item"><a class="page-link" href="{{url_for('maquinas')}}">2</a></li>
+          <li class="page-item"><a class="page-link" href="{{url_for('shavers')}}">3</a></li>
+          <li class="page-item"><a class="page-link" href="{{url_for('capas')}}" >4</a></li>
+          <li class="page-item"><a class="page-link" href="{{url_for('tijeras')}}">5</a></li>
+         
+  
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+      {% endblock %}
